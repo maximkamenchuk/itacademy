@@ -1,0 +1,19 @@
+  h5 {
+    color: red;
+  }
+  div {
+    background-color: cyan;
+  }
+  .header{
+    background-color: blueviolet;
+    color : green;
+  }
+  .about{
+    background-color: brown;
+  }
+  .white-color {
+    color: white;
+  }
+  #cats-types {
+    font-size: 30px;
+  }
