@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <input 
+    type="text" 
+    placeholder="Введите пароль" 
+    maxlength="10" 
+    required 
+    readonly/> <br>
+    <input type="email" placeholder="Введите Email" > <br>
+    <div>
+      <label>
+        <input type="checkbox" name="it" value="html">
+        HTML
+      </label>
+      <label>
+        <input type="checkbox" name="it" value="js">
+        JS
+      </label>
+      <label>
+        <input type="checkbox" name="it" value="css">
+        CSS
+      </label>
+    </div>
+
+  <div>
+    <input type="radio" id="html" name="it2" value="html">
+    <label for="html">HTML</label>
+     <input type="radio" id="JS" name="it2" value="JS">
+    <label for="JS">JS</label>
+     <input type="radio" id="CSS" name="it2" value="CSS">
+    <label for="CSS">CSS</label>
+  </div> <br>
+
+  <input type="password"> <br>
+
+  <input type="submit" value="submit"/> 
+  <input type="reset" value="reset"/>
+  <input type="button" value="button"/> <br>
+
+  <input type="file"> <br>
+
+  <input type="color"> <br>
+  <input type="date"><br>
+  <input type="range" min="0" max="100" step="10"><br>
+  <input type="time"><br>
+  <input type="tel" placeholder="+375 44 123 45 67"><br>
+  <input type="url"><br>
+  <input type="datetime-local" min="2023-09-15T03:56"><br>
+  <input type="number"> <br>
+  
+  <select>
+    <option value="" selected></option>
+    <option value="volvo">Volvo</option>
+    <option value="mercedes" >Mercedes</option>
+    <option value="audi">Audi</option>
+  </select> <br>
+  
+  <textarea rows="3" cols="10" style="resize: none;" wrap="soft">
+    Hello, World!
+  </textarea>
+</form>
+
+</body>
+</html>
