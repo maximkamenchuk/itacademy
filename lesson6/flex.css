@@ -1,0 +1,66 @@
+.wrapper {
+    display:flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /*justify-content: space-evenly; */
+    /* flex-wrap: wrap; */ 
+    /* height: 100px; */
+    background-color: aqua;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+    align-items: center;
+    height: 200px;
+}
+
+.green {
+    background-color: green;
+    height: 50px;
+}
+
+.red {
+    background-color: red;
+    height: 70px;
+}
+.blue {
+    background-color: blue;
+    height: 40px;
+}
+.yellow {
+    background-color: yellow;
+    height: 50px;
+}
+.purple {
+    background-color: purple;
+    height: 60px;
+}
+
+/* .w-100 {
+    width: 100%;
+} */
+
+/* .wrapper > div {
+    width: 100px;
+}
+
+.blue,
+.yellow {
+    color:azure;
+}
+
+#p2 {
+    color: blueviolet;
+}
+
+.green p {
+    font-size: 30px;
+} */ 

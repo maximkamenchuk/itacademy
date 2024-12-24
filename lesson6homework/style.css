@@ -1,0 +1,27 @@
+.header {
+    height: 100px;
+    background-color: gold;
+}
+.content {
+    display: flex;
+    height: 300px;
+}
+.footer {
+    height: 100px;
+    background-color: gold;
+}
+.article {
+    width: 60%;
+    background-color: gold;
+}
+.nav {
+    width: 15%;
+    background-color: gold;
+}
+.ads {
+    width: 25%;
+    background-color: gold;
+}
+div {
+    margin: 5px;
+}

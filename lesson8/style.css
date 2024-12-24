@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.h-50px{
+    height: 50px;
+}
+
+.percent {
+    background-color: aqua;
+    width: 50%;
+    height: 100vh;
+}
+.p80{
+    background-color: blue;
+    width: 80%;
+}
+.p50 {
+    background-color: red;
+    width: 50%;
+}
+
+.daneehand {
+    font-family: daneehand;
+}
+@font-face {
+    font-family: 'daneehand';
+    src: url(./fonts/Daneehand.ttf)
+}
