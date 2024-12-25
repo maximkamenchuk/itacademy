@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(to right, #4a76a8, #6495ED); /* Градиентный фон */
+    padding: 10px 0;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600; /* Более жирный шрифт */
+    color: white;
+}
+
+.search input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    position:relative;
+    right: 300px;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.padding {
+    padding: 5px 50px;
+    color: #6495ED;
+}
+
+.maincontainer {
+display: flex;
+
+}
+
+.main {
+    padding-top: 10px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.img {
+    width: 350px;
+    height: 400px;
+    margin: 20px 100px;
+    border-radius: 20%;
+}
+
+.name {
+    margin: 20px;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    color:gray;
+}
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+.flexcolumn {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content: center;
+}
+.padding2 {
+    margin: 20px 20px;
+    justify-content: center;
+}
+
+.maincontainer2 {
+    display: flex;
+    flex-direction: column;
+}
+.friends2 {
+    padding: 10px 5px;
+    position: relative;
+    left: 280px;
+    bottom: 170px;
+}
+
+.profile-icon2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+.fontweight {
+    color: #6495ED;
+    font-size: 30px;
+}
+.myphoto {
+    position:relative;
+    left: 700px;
+    bottom: 400px;
+}
+.photo2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.myphoto2 {
+ padding: 20px;
+}
+.photo3 {
+    width: 150px;
+    height: 150px;
+    padding: 20px 5px;
+}
+.padding3 {
+    padding: 10px 0;
+}
