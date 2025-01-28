@@ -1,0 +1,13 @@
+.animal-features-2 {
+    color:lightskyblue;
+    font-weight: bold;
+}
+
+.animal-img-cat2 {
+    margin: 10px 0px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+body {
+    background-color: gray;
+}

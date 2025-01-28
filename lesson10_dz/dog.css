@@ -1,0 +1,12 @@
+.animal-features-3 {
+    color:rgb(77, 88, 88);
+    font-weight: bold;
+}
+.animal-img-dog {
+    margin: 10px 0px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+body {
+    background-color: rgb(90, 15, 21);
+}

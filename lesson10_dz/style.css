@@ -1,0 +1,29 @@
+.main-nav {
+    background-color: #474747;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style: none; /* Убирает маркеры списка */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Выравнивание по центру */
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none; /* Убирает подчеркивание */
+    padding: 8px 12px;
+    border-radius: 4px; /* Скругление */
+    transition: background-color 0.3s ease; /* Плавный переход цвета при наведении */
+}
+
+.nav-link:hover {
+    background-color: #555; /* Цвет фона при наведении */
+}
+

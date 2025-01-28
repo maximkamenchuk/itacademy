@@ -1,0 +1,13 @@
+.animal-img-cat1 {
+    margin: 10px 0px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.animal-features {
+    color: coral;
+    font-weight: bold;
+}
+body {
+    background-color: wheat;
+}
