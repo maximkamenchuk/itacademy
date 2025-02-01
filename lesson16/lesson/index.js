@@ -60,20 +60,20 @@
 //     alice.greet(); // Hello, my name is Alice
 
 
-class Animal {
-    constructor(name) {
-    this.name = name;
-    }
-    greet() {
-        console.log(`my name is ${this.name}`);
-    }
-}
+// class Animal {
+//     constructor(name) {
+//     this.name = name;
+//     }
+//     greet() {
+//         console.log(`my name is ${this.name}`);
+//     }
+// }
 
-class Dog extends Animal {      // Класс Dog наследует Animal, в него входят все свойства Animal
-    bark() {
-    console.log(`${this.name} Гавкает!`);
-    }
-}
-const rex = new Dog('Rex', 'Бульдог')
-rex.greet(); // my name is %{this.name}
-rex.bark(); // ${this.name} Гавкает!
+// class Dog extends Animal {      // Класс Dog наследует Animal, в него входят все свойства Animal
+//     bark() {
+//     console.log(`${this.name} Гавкает!`);
+//     }
+// }
+// const rex = new Dog('Rex', 'Бульдог')
+// rex.greet(); // my name is %{this.name}
+// rex.bark(); // ${this.name} Гавкает!
