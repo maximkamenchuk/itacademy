@@ -1,0 +1,42 @@
+#error {
+  color: red;
+  display: none;
+  margin: 10px;
+}
+
+.all-game-div {
+  display: flex;
+  justify-content:stretch;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 440px;
+}
+
+h4 {
+  margin-right: 30px;
+  font-size: 16px;
+  font-family: cursive;
+}
+
+#check {
+  padding: 20px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkorange;
+  color: white;
+  cursor: pointer;
+  font-family: fantasy;
+}
+
+#number {
+  width: 100px;
+  margin: 10px;
+  margin-right: 20px;
+  border: 2px solid green;
+}
+
+
+tr {
+    border: 2px solid brown;
+}

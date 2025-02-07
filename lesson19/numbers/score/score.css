@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkorange;
+  color: white;
+  cursor: pointer;
+}
+
+h2 {
+  width: 300px;
+  font-size: 16px;
+  font-family: cursive;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.player {
+  font-size: 16px;
+  font-family: fantasy;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.num-of-attempts {
+  font-size: 16px;
+  font-family: fantasy;
+  margin: 30px;
+  font-size: 30px;
+}
+
+#again {
+  padding: 20px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  font-family: cursive;
+  color: black;
+  font-size: large;
+}
+
+#again:hover {
+  background-color: indigo;
+}
+
+#new {
+  padding: 20px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  font-family: cursive;
+  color: black;
+  font-size: large;
+}
+
+#new:hover {
+  background-color: indigo;
+}
+
+.th-first {
+    padding: 20px;
+}

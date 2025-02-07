@@ -1,0 +1,43 @@
+body {
+    overflow: hidden;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: aqua;
+}
+
+form {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.label {
+  font-size: 24px;
+  font-family: cursive;
+}
+
+#btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkorange;
+  color: white;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: coral;
+}
