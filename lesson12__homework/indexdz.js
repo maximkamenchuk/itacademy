@@ -46,4 +46,3 @@
 // } else if(arr == 'English') {
 //     console.log('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
 // }
-
