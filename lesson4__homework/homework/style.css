@@ -1,0 +1,52 @@
+#color-container {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+.title {
+    color: red;
+}
+.size-profile {
+    font-size: 35px;
+    color: aqua;
+}
+.size-friends {
+    font-size: 50px;
+    color: orange;
+}
+.border-container {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.nav-padding {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.second-text-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.second-text{
+    color: yellow;
+}
+
+.home-link{
+    color: red;
+}
+.profile-link{
+    color: aqua;
+}
+.friends-link{
+    color: orange;
+}
+.aqua-box {
+    background-color: aqua;
+}
+
+.pink-box {
+    background-color: pink;
+}
+
+
