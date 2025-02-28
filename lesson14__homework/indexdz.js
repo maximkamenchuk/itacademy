@@ -21,13 +21,16 @@
 
 //zadanie 2
 // function isPalindrome(str) {
-//   const cleanedStr = str.toLowerCase();
+//   const cleanedStr = str
+//     .toLowerCase()
+//     .replace(/[^a-zA-Zа-яА-Я0-9]/g, "")
 //   const reversedStr = cleanedStr.split("").reverse().join("");
 //   return cleanedStr === reversedStr;
 // }
-// console.log(isPalindrome("level"));     // true
-// console.log(isPalindrome("ШАЛАШ"));     // true
-// console.log(isPalindrome('123321'));   //  true
+// console.log(isPalindrome("level")); // true
+// console.log(isPalindrome("ШАЛАШ")); // true
+// console.log(isPalindrome("123321")); //  true
+// console.log(isPalindrome("У скал плакса ласкал плаксу")); // true
 
 //zadanie 3
 // function uniqueCharacters(str) {

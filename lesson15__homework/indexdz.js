@@ -48,38 +48,36 @@
 
 //zadanie 3
 // function sumBetweenZeros(arr) {
-//     let firstZeroIndex = -1;
-//     let lastZeroIndex = -1;
+//   const firstZeroIndex = arr.indexOf(0);
+//   const lastZeroIndex = arr.lastIndexOf(0);
 
-//     for (let i = 0; i < arr.length; i++) { // Находим индекс первого нуля
-//         if (arr[i] === 0) {
-//             firstZeroIndex = i;
-//             break;
-//         }
-//     }
+//   if (
+//     firstZeroIndex === -1 ||
+//     lastZeroIndex === -1 ||
+//     firstZeroIndex >= lastZeroIndex
+//   ) {
+//     return 0;
+//   }
 
-//     for (let i = arr.length - 1; i >= 0; i--) { // Находим индекс последнего нуля
-//         if (arr[i] === 0) {
-//             lastZeroIndex = i;
-//             break;
-//         }
-//     }
-
-//     let sum = 0;
-//     for (let i = firstZeroIndex + 1; i < lastZeroIndex; i++) { // Вычисляем сумму элементов между первым и последним нулями
-//         sum += arr[i];
-//     }
-//     return sum;
+//   let sum = 0;
+//   for (let i = firstZeroIndex + 1; i < lastZeroIndex; i++) {
+//     sum += arr[i];
+//   }
+//   return sum;
 // }
 
-// const numbers = [1, 2, 7, 0, 9, 4, -2, 0]
+// const numbers = [1, 2, 7, 0, 9, 4, -2, 0];
 // console.log("Массив:", numbers);
 // console.log("Сумма между нулями:", sumBetweenZeros(numbers));
 
-//zadanie 4
+// const numbers3 = [0, 1, 2, 3, 0];
+// console.log("Массив:", numbers3);
+// console.log("Сумма между нулями:", sumBetweenZeros(numbers3)); // 6
+
+// zadanie 4
 // function shiftArrayRight(arr, n, fillValue = null) {
 //     const len = arr.length;
-//     const shift = n % len; // Учитываем случай, когда n > len (сдвиг не должен быть больше длины массива)
+//     const shift = n % len;
 
 //     const shiftedArray = new Array(len); // Создаем новый массив той же длины
 
@@ -100,7 +98,7 @@
 
 //   const numbers = [1, -3, 5, 8, 9, -10, 14, 16, -17]
 //   console.log("Исходный массив:", numbers);
-//   console.log("Сдвиг на 2", shiftArrayRight(numbers, 2)); // Вывод: [null, null, 1, 2, 3]
+//   console.log("Сдвиг на 12", shiftArrayRight(numbers, 12)); // Вывод: [null, null, 1, 2, 3]
 
 //zadanie 5
 // function findMaxConsecutiveElements(arr) {

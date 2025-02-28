@@ -1,9 +1,10 @@
 //lesson12
 
 //zadanie 1
-// let str1 = 'Hello'
-// let str2 = 'world'
-// console.log(str1 + ", " + str2);
+// let str1 = 'Hello';
+// let str2 = 'world';
+// console.log(`${str1}, ${str2}`); 
+
 
 
 
@@ -39,10 +40,11 @@
 
 
 //zadanie 5 
-// let language = prompt();
-// let arr = language.split(' ')
+// let arr = prompt();
 // if (arr == 'Русский') {
 //     console.log('Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье');
 // } else if(arr == 'English') {
 //     console.log('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
+// } else {
+//     console.log('Неверный ввод языка');
 // }
